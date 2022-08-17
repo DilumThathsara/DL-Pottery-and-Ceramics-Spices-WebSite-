@@ -1,0 +1,109 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.Icon{
+	width: 85%;
+	margin: auto;
+	padding: 35px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 120px;
+	cursor: pointer;
+}
+
+.Icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+	position: relative;
+}
+
+.abc{
+	align : center;
+}
+.Icon ul li a{
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+}
+
+.Icon ul li::after{
+	content: '' ;
+	height: 3px;
+	width: 0;
+	background: #00FBFF;
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	transition: 0.5s;
+}
+
+.Icon ul li:hover::after{
+	width: 100%;
+}
+
+td{
+	color: white;
+	font-size: 14px;
+}
+
+input[type=submit] 
+{
+    background-color:#FF1B1F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+
+}
+
+input[type=submit]:hover 
+{
+    background-color:#FF4B4E;
+}
+
+input[type=Reset] 
+{
+    background-color:#1704B7;
+    color:white;
+    padding: 10px 20px;
+	border-radius: 4px;
+}
+
+input[type=Reset]:hover 
+{
+    background-color:#2D21C0;
+}
+
+label{
+	color: white;
+}
+
+.psw{
+	color: white;
+}
+
+button{
+	background-color:#FF1B1F;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+button:hover{
+    background-color:#FF4B4E;
+}
+
+.contact{
+	color: white;
+	font-size: 20px;
+}
